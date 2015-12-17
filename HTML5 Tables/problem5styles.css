@@ -1,0 +1,63 @@
+body {
+	font-family: ariel, sans-serif;
+}
+table, th, td {
+	border: 1px solid black;
+}
+
+td, th {
+	width:100px;
+	height:100px;
+}
+th {
+	font-size: 300%;
+}
+#nested {
+	margin: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+#nested td{
+	height:45px;
+}
+.lefttop {
+	text-align: left;
+	vertical-align: top;
+	font-size: 150%
+}
+.leftmiddle {
+	text-align: left;
+	vertical-align: middle;
+	font-size: 150%
+}
+.topcenter {
+	text-align: center;
+	vertical-align: top;
+	font-size: 150%
+}
+.bottomcentre {
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 150%
+}
+.bottomleft {
+	text-align: left;
+	vertical-align: bottom;
+	font-size: 150%
+}
+.middleright {
+	text-align: right;
+	vertical-align: middle;
+	font-size: 200%;
+	font-weight: bold;
+}
+.topright {
+	text-align: right;
+	vertical-align: top;
+	font-size: 150%
+}
+.bottomright {
+	text-align: right;
+	vertical-align: bottom;
+	font-size: 150%
+}

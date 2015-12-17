@@ -1,0 +1,23 @@
+body {
+	background-image: url("./problem5background.png");
+}
+h1 {
+	font-size:40px;
+	color:#FF9900;
+	}
+span.textinwhite{
+	font-size:25px;
+	color:white;
+}
+li {
+	font-size: 25px;
+	color:#FF9900;
+	}
+p.transparentbox{
+	border:0.5px solid white;
+	background-color:#1f1f14;
+	margin:15px 70px 15px 15px;
+	color:#ffffcc;
+	font-size: 21px;
+	padding:10px;
+}
