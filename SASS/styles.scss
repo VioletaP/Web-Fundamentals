@@ -1,0 +1,204 @@
+@mixin Gradientmaker($path, $direction, $start, $end) {
+  @if $path == 'linear' {
+    background: linear-gradient(to $direction, $start, $end);
+  }
+  @else {
+    background: radial-gradient($start, $end);
+  }
+}
+
+$border-main: 2px solid #C0C0C0;
+$border-thin: 0.9px solid #C0C0C0;
+$margin-main: 0 auto;
+@mixin main-font($font-size) {
+	font-family: Tahoma, sans-serif;
+	color: #808080;
+	font-size: $font-size;
+}
+
+body {
+	@include Gradientmaker(linear, bottom, grey, white);
+	
+	h1, h2 {
+		text-align: center;
+	}
+	#wrapper {
+		width: 75%;
+		background-color: white;
+		border:$border-main;
+		margin: $margin-main;
+
+		header {
+				border: $border-main;
+				text-align: center;
+				margin: 10px;
+				
+			h1 {
+				@include main-font(1.5em);
+			}
+			li {
+				list-style-type: none;
+				display: inline-block;
+				margin: 0 15px;
+				padding: 5px;
+				border: $border-thin;
+
+				&:hover {
+						@include Gradientmaker (linear, bottom, grey, white);
+				}
+
+				a {
+					text-decoration: none;
+					@include main-font(0.9em);
+
+					&:hover {
+						color: white;
+					}
+
+				}
+			}
+		}
+		.linear, .radial {
+			border: $border-main;
+			margin: 10px;
+			padding: 15px;
+			header{
+				border: none;
+
+				h1 {
+					text-decoration: underline;
+					@include main-font(1em);
+
+				}
+
+			}
+			article {
+				border: $border-thin;
+				margin-bottom: 10px;
+
+				h2 {
+					@include main-font(0.7em);
+				}
+
+				.innerContainer {
+					
+					div {
+						display: inline-block;
+						width: 151px;
+						height: 151px;
+						border-radius: 10px;
+						margin-top: 5px;
+						margin-bottom: 5px;
+						
+						&:first-child {
+							margin-left: 8px;
+						}
+						
+					}
+				}
+
+			}
+
+		}
+		.linear {
+			article:nth-child(2) {
+		        .purple {
+		          @include Gradientmaker(linear, bottom, purple, white)
+		        }
+		        .blue {
+		          @include Gradientmaker(linear, bottom, blue, white)
+		        }
+		        .green {
+		          @include Gradientmaker(linear, bottom, green, white)
+		        }
+		        .yellow {
+		          @include Gradientmaker(linear, bottom, yellow, white)
+		        }
+		        .orange {
+		          @include Gradientmaker(linear, bottom, orange, white)
+		        }
+		        .red {
+		          @include Gradientmaker(linear, bottom, red, white)
+		    	}
+      		}
+
+      article:nth-child(3) {
+	        .purple {
+	          @include Gradientmaker(linear, right, purple, white)
+	        }
+	        .blue {
+	          @include Gradientmaker(linear, right, blue, white)
+	        }
+	        .green {
+	          @include Gradientmaker(linear, right, green, white)
+	        }
+	        .yellow {
+	          @include Gradientmaker(linear, right, yellow, white)
+	        }
+	        .orange {
+	          @include Gradientmaker(linear, right, orange, white)
+	        }
+	        .red {
+	          @include Gradientmaker(linear, right, red, white)
+	        }
+      	}
+
+      article:nth-child(4) {
+	        .purple {
+	          @include Gradientmaker(linear, right bottom, purple, white)
+	        }
+	        .blue {
+	          @include Gradientmaker(linear, right bottom, blue, white)
+	        }
+	        .green {
+	          @include Gradientmaker(linear, right bottom, green, white)
+	        }
+	        .yellow {
+	          @include Gradientmaker(linear, right bottom, yellow, white)
+	        }
+	        .orange {
+	          @include Gradientmaker(linear, right bottom, orange, white)
+	        }
+	        .red {
+	          @include Gradientmaker(linear, right bottom, red, white)
+	        }
+      	}
+      }
+    .radial {
+      article {
+        .purple {
+          @include Gradientmaker(radial, right bottom, purple, white)
+        }
+        .blue {
+          @include Gradientmaker(radial, right bottom, blue, white)
+        }
+        .green {
+          @include Gradientmaker(radial, right bottom, green, white)
+        }
+        .yellow {
+          @include Gradientmaker(radial, right bottom, yellow, white)
+        }
+        .orange {
+          @include Gradientmaker(radial, right bottom, orange, white)
+        }
+        .red {
+          @include Gradientmaker(radial, right bottom, red, white)
+        }
+      }
+    }
+    footer {
+    	text-align: center;
+    	h3 {
+			@include main-font(0.6em);
+			text-decoration: underline;
+		}
+		ul {
+			list-style-type: none;
+			a {
+				@include main-font(0.5em);
+				text-decoration: none;
+			}
+		}
+    }
+	}
+}

@@ -1,0 +1,123 @@
+body {
+  background: linear-gradient(to bottom, grey, white); }
+  body h1, body h2 {
+    text-align: center; }
+  body #wrapper {
+    width: 75%;
+    background-color: white;
+    border: 2px solid #C0C0C0;
+    margin: 0 auto; }
+    body #wrapper header {
+      border: 2px solid #C0C0C0;
+      text-align: center;
+      margin: 10px; }
+      body #wrapper header h1 {
+        font-family: Tahoma, sans-serif;
+        color: #808080;
+        font-size: 1.5em; }
+      body #wrapper header li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 15px;
+        padding: 5px;
+        border: 0.9px solid #C0C0C0; }
+        body #wrapper header li:hover {
+          background: linear-gradient(to bottom, grey, white); }
+        body #wrapper header li a {
+          text-decoration: none;
+          font-family: Tahoma, sans-serif;
+          color: #808080;
+          font-size: 0.9em; }
+          body #wrapper header li a:hover {
+            color: white; }
+    body #wrapper .linear, body #wrapper .radial {
+      border: 2px solid #C0C0C0;
+      margin: 10px;
+      padding: 15px; }
+      body #wrapper .linear header, body #wrapper .radial header {
+        border: none; }
+        body #wrapper .linear header h1, body #wrapper .radial header h1 {
+          text-decoration: underline;
+          font-family: Tahoma, sans-serif;
+          color: #808080;
+          font-size: 1em; }
+      body #wrapper .linear article, body #wrapper .radial article {
+        border: 0.9px solid #C0C0C0;
+        margin-bottom: 10px; }
+        body #wrapper .linear article h2, body #wrapper .radial article h2 {
+          font-family: Tahoma, sans-serif;
+          color: #808080;
+          font-size: 0.7em; }
+        body #wrapper .linear article .innerContainer div, body #wrapper .radial article .innerContainer div {
+          display: inline-block;
+          width: 151px;
+          height: 151px;
+          border-radius: 10px;
+          margin-top: 5px;
+          margin-bottom: 5px; }
+          body #wrapper .linear article .innerContainer div:first-child, body #wrapper .radial article .innerContainer div:first-child {
+            margin-left: 8px; }
+    body #wrapper .linear article:nth-child(2) .purple {
+      background: linear-gradient(to bottom, purple, white); }
+    body #wrapper .linear article:nth-child(2) .blue {
+      background: linear-gradient(to bottom, blue, white); }
+    body #wrapper .linear article:nth-child(2) .green {
+      background: linear-gradient(to bottom, green, white); }
+    body #wrapper .linear article:nth-child(2) .yellow {
+      background: linear-gradient(to bottom, yellow, white); }
+    body #wrapper .linear article:nth-child(2) .orange {
+      background: linear-gradient(to bottom, orange, white); }
+    body #wrapper .linear article:nth-child(2) .red {
+      background: linear-gradient(to bottom, red, white); }
+    body #wrapper .linear article:nth-child(3) .purple {
+      background: linear-gradient(to right, purple, white); }
+    body #wrapper .linear article:nth-child(3) .blue {
+      background: linear-gradient(to right, blue, white); }
+    body #wrapper .linear article:nth-child(3) .green {
+      background: linear-gradient(to right, green, white); }
+    body #wrapper .linear article:nth-child(3) .yellow {
+      background: linear-gradient(to right, yellow, white); }
+    body #wrapper .linear article:nth-child(3) .orange {
+      background: linear-gradient(to right, orange, white); }
+    body #wrapper .linear article:nth-child(3) .red {
+      background: linear-gradient(to right, red, white); }
+    body #wrapper .linear article:nth-child(4) .purple {
+      background: linear-gradient(to right bottom, purple, white); }
+    body #wrapper .linear article:nth-child(4) .blue {
+      background: linear-gradient(to right bottom, blue, white); }
+    body #wrapper .linear article:nth-child(4) .green {
+      background: linear-gradient(to right bottom, green, white); }
+    body #wrapper .linear article:nth-child(4) .yellow {
+      background: linear-gradient(to right bottom, yellow, white); }
+    body #wrapper .linear article:nth-child(4) .orange {
+      background: linear-gradient(to right bottom, orange, white); }
+    body #wrapper .linear article:nth-child(4) .red {
+      background: linear-gradient(to right bottom, red, white); }
+    body #wrapper .radial article .purple {
+      background: radial-gradient(purple, white); }
+    body #wrapper .radial article .blue {
+      background: radial-gradient(blue, white); }
+    body #wrapper .radial article .green {
+      background: radial-gradient(green, white); }
+    body #wrapper .radial article .yellow {
+      background: radial-gradient(yellow, white); }
+    body #wrapper .radial article .orange {
+      background: radial-gradient(orange, white); }
+    body #wrapper .radial article .red {
+      background: radial-gradient(red, white); }
+    body #wrapper footer {
+      text-align: center; }
+      body #wrapper footer h3 {
+        font-family: Tahoma, sans-serif;
+        color: #808080;
+        font-size: 0.6em;
+        text-decoration: underline; }
+      body #wrapper footer ul {
+        list-style-type: none; }
+        body #wrapper footer ul a {
+          font-family: Tahoma, sans-serif;
+          color: #808080;
+          font-size: 0.5em;
+          text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
