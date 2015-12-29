@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Animated;
+    src: url(Animated.ttf);
+}
+#skyandsun {
+	background: radial-gradient(circle at 130px 140px, #ffffff 3%, #e9e69b 8%, #0000ff 30%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 900px;
+	height: 600px;
+}
+p {
+	font-family: "Animated";
+	font-size: 40px;
+	color: #FEBD1E;
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+#partyscene {
+	width: 900px;
+	height: 600px;
+	background-image: url("TediHula.png"),
+		url("PetiaHula.png"),
+		url("VladoGHula.png"),
+		url("NakovHula.png"), 
+        url("VladoKHula.png"),
+        url("AlexHula.png"), 
+        url("HawaiiBackground.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 250px 390px, 185px 210px, 50px 235px, 405px 190px, 680px 250px, 495px 230px, 0 100%;
+}

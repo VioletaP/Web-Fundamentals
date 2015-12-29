@@ -1,0 +1,57 @@
+body {
+	font-family: "ariel", sans-serif;
+	font-size: 200%;
+}
+.crazyborder {
+	width: 900px;
+	border-width: 6px 14px 8px 6px;
+	border-style: dotted solid double dashed;
+	border-color: yellow green blue red;
+	box-shadow: 25px 25px 4px #4d4d4d;
+}
+h1 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-shadow: 6px 10px 7px #b8b894;
+}
+.tripleline {
+	margin: 0 20px 20px 20px;
+	position: relative;
+	border: 2px solid red;
+	box-shadow: 0 0 0 2px yellow, 0 0 0 4px green, 0 0 0 6px blue;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 90%
+}
+.tripleline p {
+	text-shadow: 10px 14px 7px #b8b894;
+}
+/*.tripleline:before {
+  content: " ";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border: 4px solid red;
+  border-radius: 90px;
+}
+}
+.tripleline:after {
+  content: " ";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border: 4px solid blue;
+  border-radius: 110px;
+}*/
+.notbuttons {
+	display: inline-block;
+	margin: 0 auto;
+	border: 4px outset orange;
+	background-color: orange;
+	padding: 5px 15px;
+}

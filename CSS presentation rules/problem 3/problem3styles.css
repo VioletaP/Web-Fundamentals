@@ -1,0 +1,73 @@
+form {
+	background-image: url(formBackground.jpg);
+	padding: 15px;
+	width: 400px;
+	border-radius: 5px;
+}
+fieldset {
+	margin: 10px;
+	border: none;
+	font-family: "ariel", sans-serif;
+}
+fieldset legend {
+	color: white;
+	font-weight: bold;
+	padding-left: 0;
+}
+fieldset div legend {
+	font-size: 1em;
+	font-weight: normal;
+	color: black;
+	padding-bottom: 5px;
+}
+
+div {
+	background: white;
+	opacity: 0.5;
+	font-size: 0.8em;
+	padding: 8px;
+	margin: 2px;
+	border:1px solid white;
+	border-radius: 5px;
+}
+label {
+	text-align: left top;
+	display: inline-block;
+}
+input:not[type="radio"], textarea {
+	padding: 5px;
+	border-radius: 10px;
+}
+textarea {
+	vertical-align: top;
+	width: 140px;
+	height: 90px;
+	margin-left: 37px;
+}
+input[type="submit"] {
+	width: 90px;
+	margin-left: 160px;
+	padding: 5px;
+	background-color: #000d33;
+	color: white; 
+	border: none;
+	border-radius: 20px;
+}
+input#name, #Email, #phone {
+	margin-left: 40px;
+}
+input#postcode {
+	margin-left: 30px;
+}
+input#country {
+	margin-left: 43px; 
+}
+input#cardnum {
+	margin-left: 25px;
+}
+input#security {
+	margin-left: 20px;
+}
+input#cardname {
+	margin-left: 20px;
+}

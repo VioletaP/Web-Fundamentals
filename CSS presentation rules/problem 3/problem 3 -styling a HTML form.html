@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML form</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="problem3styles.css">
+</head>
+<body>
+	<form method="get" action="#">
+		<fieldset>
+			<legend>Step 1: Your details</legend>
+				<div>
+					<label for="name">Name</label>
+					<input type="text" id="name" placeholder="First and last name" />
+				</div>
+				<div>
+					<label for="name">Email</label>
+					<input type="email" id="Email" placeholder="example@domain.com" />
+				</div>
+				<div>
+					<label for="phone">Phone</label>
+					<input type="text" id="phone" placeholder="eg. +447500000000" />
+				</div>
+		</fieldset>
+		<fieldset>
+			<legend>Step 1: Delivery address</legend>
+			<div>
+				<label for="address">Address</label>
+				<textarea name="address"></textarea>
+			</div>
+			<div>
+				<label for="postcode">Post code</label>
+				<input type="text" id="postcode" />
+			</div>
+			<div>
+				<label for "country">Country</label>
+				<input type="text" id="country" />
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Step 1: Card details</legend>
+			<div>
+				<legend>Card type</legend>
+				<input type="radio" name="cardtype" value="1"/> 
+				<label><img style=" width: 20px;"src="VISA-Logo-small.jpg"> VISA</label>
+				<input type="radio" name="cardtype" value="2" />
+				<label><img  style="width: 20px;" src="express.png"> Amex</label>
+				<input type="radio" name="cardtype" value="3" />
+				<label><img style="width: 20px;"src="mastercard-logo-small.jpg"> Mastercard</label>
+			</div>
+			<div>
+				<label for="cardnum">Card number</label>
+				<input type="text" id="cardnum"/> 
+			</div>
+			<div>
+				<label for "security">Security code</label>
+				<input type="text" id="security" />
+			</div>
+			<div>
+				<label for "cardname">Name on card</label>
+				<input type="text" id="cardname" />
+			</div>
+		</fieldset>
+		<input type="submit" value="BUY IT!">
+	</form>
+</body>
+</html>
